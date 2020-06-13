@@ -9,7 +9,7 @@ EMAIL_PASSWORD = os.environ.get('EMAIl_PASS')
 msg = EmailMessage()
 msg['Subject'] = 'Resume for digital harbour'
 msg['from'] = EMAIL_ADDRESS
-msg['to'] = 'kanojiya82@gmail.com'   #contacts
+msg['to'] = 'Enter recevier E-mail address'  
 msg.set_content("Its sent from hotmail account")
 
 files = [r'C:\Users\Ajay\Downloads\ajay.jpeg',r'C:\Users\Ajay\Downloads\Bandstand.jpeg',
